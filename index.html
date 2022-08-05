@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,83 +9,76 @@
     <link rel="icon" href="./assets/img/logo.png" type="image/icon type">
     <title>Eternity</title>
     <link rel="stylesheet" href="./css/style.css">
-scr
 </head>
 
 <body>
-<!-- navbar -->
-    <header>
-        <nav class="navbar">
-            <a href="#"><b>FILOSOFI</b></a>
-            <a href="#"><b>PROFIL</b></a>
-            <a href="#"><b>GALERI</b></a>
-            <a href="#"><b>LAGU-LAGU</b></a>
-            <a href="#"><b>KONTAK</b></a>
-        </nav>
-    </header>
-<!-- filosofi -->
-    <div class="filosofi">
-        <!-- tittle filosofi -->
-        <div class="tittle">
-            <img src="./assets/img/background.jpg" alt="" style=" width:50%;">
-            <div class="centered">
-                <div class=""> 
-                INFORMATION
-                </div>
-                <div style="position: absolute">
-                    <img src="./assets/img/logo.png" alt="" style="width: ;1%">
-                </div>
-                <div class="">
-                SYSTEM
-                </div>
-            </div>
+    <!-- navbar -->
+    <div class="nav">
+        <a href="#"><b>FILOSOFI</b></a>
+        <a href="#"><b>PROFIL</b></a>
+        <a href="#"><b>GALERI</b></a>
+        <a href="#"><b>LAGU-LAGU</b></a>
+        <a href="#"><b>KONTAK</b></a>
+    </div>
+    </div>
+    <!-- title filosofi -->
+    <div class="title"
+        style="
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url('./assets/img/background.jpg'); background-repeat: no-repeat; width: 100%; background-position: center;">
+        <div class="columnUp">
+            INFORMATION
+            <img src="./assets/img/logo.png" alt="" style="width: 20%;">
+            SYSTEM 2021
         </div>
-        <!-- filosofi -->
+
+    </div>
+    <center>
         <div class="fl">
             <h1>FILOSOFI</h1>
-            <p>lorem ipsum sit amet dolor 
-                lorem ipsum sit amet dolor lorem ipsum sit amet dolorlorem ipsum sit amet dolor 
+            <p>lorem ipsum sit amet dolor
+                lorem ipsum sit amet dolor lorem ipsum sit amet dolorlorem ipsum sit amet dolor
                 lorem ipsum sit amet dolor lorem ipsum sit amet dolor</p>
         </div>
-        <!-- visi misi tujuan -->
-        <!-- <div class="vtmt"> -->
-        <div class="row">
-            <div class="column">
-                <h2>VISI</h2>
-                <p>lorem ipsum sit amet dolor 
+    </center>
+    <!-- <div class="vtmt"> -->
+    <div class="row" style="transform: translate(0px, -50px);">
+        <div class="column">
+            <h2>VISI</h2>
+            <p>lorem ipsum sit amet dolor
                 lorem ipsum sit amet dolor lorem ipsum sit amet dolor</p>
-            </div>
-            <div class="column">
-                <h2>MISI</h2>
-                <p>lorem ipsum sit amet dolor 
-                    lorem ipsum sit amet dolor lorem ipsum sit amet dolor</p>
-            </div>
-            <div class="column">
-                <h2>TUJUAN</h2>
-                <p>lorem ipsum sit amet dolor 
-                    lorem ipsum sit amet dolor lorem ipsum sit amet dolor</p>
-            </div>
         </div>
-        <!-- </div> -->
+        <div class="column">
+            <h2>MISI</h2>
+            <p>lorem ipsum sit amet dolor
+                lorem ipsum sit amet dolor lorem ipsum sit amet dolor</p>
+        </div>
+        <div class="column">
+            <h2>TUJUAN</h2>
+            <p>lorem ipsum sit amet dolor
+                lorem ipsum sit amet dolor lorem ipsum sit amet dolor</p>
+        </div>
     </div>
-<!-- bagian profil -->
-    <div class="profil" style="background-color: #DA882B;">
-        <div class="container" style="background-color: #183150; border-radius: 20px;">
+    <!-- bagian profil -->
+    <div class="profil" style="background-color: #DA882B;display: block;">
+        <div class="container" style="
+            padding: 1px 0px 1px 0px;
+            background-color: #183150; border-radius: 0px 0px 20px 20px;">
             <h2 style="color: #ffff;">PROFIL ANGGOTA</h2>
         </div>
-        <div class="flex-container" style="background-color: #DA882B; display: flex;">
-            <div class="column" id="profile-div">
-                /
-            </div>
+        <button onclick="changeIndex(0)">Click me</button>
+        <div id="all_asset" style="padding:30px">
+
         </div>
-    </div>  
-<!-- bagian galeri -->
+    </div>
+    <!-- bagian galeri -->
     <div class="galeri">
         <div>
             <h2>GALERI</h2>
         </div>
     </div>
-<!-- bagian lagu -->
+    <!-- bagian lagu -->
     <div class="lagu" style="background-color: #DA882B;">
         <div class="container" style="background-color: #183150; border-radius: 20px;">
             <h2 style="color: #ffff;"> LAGU - LAGU</h2>
@@ -94,9 +88,11 @@ scr
         </audio>
         <p>Lagu Angkatan</p>
     </div>
-<!-- kontak -->
+    <!-- kontak -->
     <footer>
 
     </footer>
+    <script src="js/loopin_div_profile.js"></script>
 </body>
+
 </html>
