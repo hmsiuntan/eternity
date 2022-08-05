@@ -1,0 +1,63 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: large;
+    justify-content: center;
+    margin: 0px 50px 0px 50px;
+    flex: 1 1 auto;
+}
+
+/* navbar */
+header{
+    margin-top: 20px;
+}
+nav{
+    margin: 0%;
+    text-align: center;
+}
+.navbar{
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(24, 49, 80);
+    margin: 0px 100px 0px 100px;
+    padding: 0px 50px 0px 50px;
+    position: sticky;
+}
+nav a{
+    text-decoration: none;
+    margin: 20px 25px 20px 25px;
+    color: white;
+    display: inline-block;
+    list-style-type: none;
+}
+/* tittle */
+.tiitle{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered .centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+    transform: translate(-50%, -50%);
+}
+/* FILOSOFI */
+.fl {
+    background-color: rgb(180, 180, 180);
+    padding: 100px;
+    margin: 20px;
+    position: sticky;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
